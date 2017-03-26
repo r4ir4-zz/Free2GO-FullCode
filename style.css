@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	border: 1px solid black;
+	font-family: 'Open Sans', 'sans-serif';
+	}
+
+.logo { 
+	padding-top: 40px; 
+	padding-bottom: 20px; 
+
+}
+
+/* css botões */
+.btn {
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  display: inline-block;
+}
+
+
+.blue {
+	font-family: courier new;
+	color: #000000;
+	border: 1px #000000 solid;
+}
+
+.blue:hover {
+  background-color: #000000;
+  color: #fff
+}
+
+.buttons {
+  margin-top: 120px;
+  text-align: center;
+  padding-bottom: 177px; 
+  
+  }
+
+/* copyright stuffs.. */
+p {
+  text-align: center;
+  color: #000000;
+  padding-top: 20px;
+}
+
+@media screen and (min width: 480px) {
+	@charset "utf-8";
+/* CSS Document */
+
+/* Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	border: 1px solid black;
+	font-family: 'Open Sans', 'sans-serif';
+	width: 480px;
+}
+
+.logo { 
+	padding-top: 40px; 
+	padding-bottom: 20px; 
+
+}
+
+/* css botões */
+.btn {
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  display: inline-block;
+}
+
+.btn:hover {
+  cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
+}
+.blue {
+	font-family: courier new;
+	color: #000000;
+	border: 1px #000000 solid;
+}
+
+.blue:hover {
+  background-color: #000000;
+  color: #fff
+}
+
+.buttons {
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 120px; 
+}
+
+/* copyright stuffs.. */
+p {
+  text-align: center;
+  color: #000000;
+  padding-top: 20px;
+}
+	
+} 
