@@ -2,8 +2,6 @@
 /* CSS Document */
 
 /* Google Fonts */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
 body {
 	border: 1px solid black;
 	font-family: 'Open Sans', 'sans-serif';
@@ -12,10 +10,45 @@ body {
 .logo { 
 	padding-top: 40px; 
 	padding-bottom: 20px; 
+}
+
+
+input[type="submit"] {
+	font-family: courier new;
+	color: #000000;
+	border: 1px #000000 solid;
+	
+}
+
+.text-input{
+	width: 600px;
+	height: 22px;
+	font-family: courier new;
+	font-size: 20px;
 
 }
 
-/* css botıes */
+.chatbot-fav{
+	font-family: courier new;
+	font-size: 30px; 
+	margin-top: -100px;
+	padding-left: 300px;
+}
+
+.detail {
+	padding-top: 240px;
+	padding-left: 50px;
+	
+} 
+
+.text-message {
+	font-family: courier new;
+	font-size: 24px;
+	padding-top: 40px;
+	padding-left: 100px;
+}
+
+/* css bot√µes */
 .btn {
   cursor: pointer;
   margin: 10px;
@@ -61,8 +94,6 @@ p {
 /* CSS Document */
 
 /* Google Fonts */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
 body {
 	border: 1px solid black;
 	font-family: 'Open Sans', 'sans-serif';
@@ -75,7 +106,7 @@ body {
 
 }
 
-/* css botıes */
+/* css bot√µes */
 .btn {
   cursor: pointer;
   margin: 10px;
